@@ -5,7 +5,7 @@
 # Copyright (c) 2021-present Kaleidos Ventures SL
 
 FROM nginx:1.23-alpine
-LABEL maintainer="support@taiga.io"
+LABEL maintainer="juniflow@juniustech.com"
 
 COPY docker/default.conf /etc/nginx/conf.d/default.conf
 COPY docker/conf.json.template /
@@ -24,7 +24,7 @@ RUN set -eux; \
     wget https://github.com/leventoney120/juniflow-leo-dist/archive/stable.zip -O source.zip; \
     unzip source.zip; \
     
-    mv /juniflow-dev-main /taiga; \
+    mv /juniflow-leo-dist-stable /taiga; \
     mv /conf.json.template taiga/dist/; \
     chmod +x /docker-entrypoint.d/30_config_env_subst.sh; \
     # Install taiga-front contribs
