@@ -903,7 +903,7 @@
     },
     "PROJECT": {
         "PAGE_TITLE": "{{projectName}}",
-        "HELP": "Juniflow-TEST change-front.sh scripti çalıştı. En çok kullanılanları en üste ayarlamak için projelerinizi yeniden sıralayın.<br/> En iyi 4 proje, üst gezinme çubuğu proje listesinde görünecektir",
+        "HELP": "Juniflow-TEST Fatih was here. change-front.sh scripti çalıştı. En çok kullanılanları en üste ayarlamak için projelerinizi yeniden sıralayın.<br/> En iyi 4 proje, üst gezinme çubuğu proje listesinde görünecektir",
         "PRIVATE": "Gizli proje",
         "LOOKING_FOR_PEOPLE": "Bu proje ahalisini arıyor",
         "FANS_COUNTER_TITLE": "{total, plural, =1{bir hayran} other{# hayran}}",
